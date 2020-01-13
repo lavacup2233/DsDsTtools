@@ -1,0 +1,123 @@
+return {
+  ["workshop-1301033176"]={ ["configuration_options"]={ ["LANG"]="auto" }, ["enabled"]=true },
+  ["workshop-354415247"]={
+    ["configuration_options"]={
+      ["LARGE_USES"]=75,
+      ["RANGE_CHECK"]=true,
+      ["SMALL_MISS_CHANCE"]=2,
+      ["SMALL_USES"]=5 
+    },
+    ["enabled"]=true 
+  },
+  ["workshop-358749986"]={
+    ["configuration_options"]={ ["IndicatorSize"]=3, ["MaxIndicator"]=7000, ["PlayerIndicators"]=1 },
+    ["enabled"]=true 
+  },
+  ["workshop-361994110"]={
+    ["configuration_options"]={ ["HAT_DECAY"]=false, ["RELEASE_BEES"]=false, ["SPRING_BEES"]=true },
+    ["enabled"]=true 
+  },
+  ["workshop-364189966"]={ ["configuration_options"]={  }, ["enabled"]=true },
+  ["workshop-375850593"]={ ["configuration_options"]={  }, ["enabled"]=true },
+  ["workshop-375859599"]={
+    ["configuration_options"]={
+      ["divider"]=5,
+      ["random_health_value"]=0,
+      ["random_range"]=0,
+      ["show_type"]=0,
+      ["unknwon_prefabs"]=1,
+      ["use_blacklist"]=true 
+    },
+    ["enabled"]=true 
+  },
+  ["workshop-378160973"]={
+    ["configuration_options"]={
+      ["ENABLEPINGS"]=true,
+      ["FIREOPTIONS"]=2,
+      ["OVERRIDEMODE"]=false,
+      ["SHAREMINIMAPPROGRESS"]=true,
+      ["SHOWFIREICONS"]=true,
+      ["SHOWPLAYERICONS"]=true,
+      ["SHOWPLAYERSOPTIONS"]=2 
+    },
+    ["enabled"]=true 
+  },
+  ["workshop-386087632"]={ ["configuration_options"]={  }, ["enabled"]=true },
+  ["workshop-458587300"]={
+    ["configuration_options"]={ ["Ownership"]=false, ["Travel_Cost"]=32 },
+    ["enabled"]=true 
+  },
+  ["workshop-458940297"]={
+    ["configuration_options"]={
+      ["DFV_ClientPrediction"]="default",
+      ["DFV_FueledSettings"]="default",
+      ["DFV_Language"]="EN",
+      ["DFV_MinimalMode"]="default",
+      ["DFV_PercentReplace"]="default",
+      ["DFV_ShowACondition"]="default",
+      ["DFV_ShowADefence"]="default",
+      ["DFV_ShowAType"]="default",
+      ["DFV_ShowDamage"]="default",
+      ["DFV_ShowFireTime"]="default",
+      ["DFV_ShowInsulation"]="default",
+      ["DFV_ShowTemperature"]="default",
+      ["DFV_ShowUses"]="default" 
+    },
+    ["enabled"]=true 
+  },
+  ["workshop-462434129"]={
+    ["configuration_options"]={
+      ["MOD_RESTART_ALLOW_KILL"]=true,
+      ["MOD_RESTART_ALLOW_RESTART"]=true,
+      ["MOD_RESTART_ALLOW_RESURRECT"]=true,
+      ["MOD_RESTART_CD_BONUS"]=0,
+      ["MOD_RESTART_CD_KILL"]=3,
+      ["MOD_RESTART_CD_MAX"]=0,
+      ["MOD_RESTART_CD_RESTART"]=5,
+      ["MOD_RESTART_CD_RESURRECT"]=7,
+      ["MOD_RESTART_FORCE_DROP_MODE"]=0,
+      ["MOD_RESTART_IGNORING_ADMIN"]=true,
+      ["MOD_RESTART_MAP_SAVE"]=2,
+      ["MOD_RESTART_RESURRECT_HEALTH"]=0,
+      ["MOD_RESTART_TRIGGER_MODE"]=1,
+      ["MOD_RESTART_WELCOME_TIPS"]=true,
+      ["MOD_RESTART_WELCOME_TIPS_TIME"]=6 
+    },
+    ["enabled"]=true 
+  },
+  ["workshop-501385076"]={ ["configuration_options"]={  }, ["enabled"]=true },
+  ["workshop-514758022"]={ ["configuration_options"]={  }, ["enabled"]=true },
+  ["workshop-569043634"]={ ["configuration_options"]={  }, ["enabled"]=true },
+  ["workshop-604761020"]={
+    ["configuration_options"]={
+      ["RUOYINXIAN"]=false,
+      ["SHENGDANSHI"]=false,
+      ["baoshibaolv"]=1,
+      ["blue_baoshi"]=1,
+      ["er_shuoming"]=0,
+      ["green_baoshi"]=1,
+      ["huangjinbaolv"]=1,
+      ["marble_suipian"]=1,
+      ["orange_baoshi"]=1,
+      ["purple_baoshi"]=1,
+      ["red_baoshi"]=1,
+      ["shishengzhang"]=0,
+      ["shitoubaolv"]=1,
+      ["thulecite_xiukuang"]=1,
+      ["wajuecishu"]=2,
+      ["yellow_baoshi"]=1,
+      ["yi_shuoming"]=0 
+    },
+    ["enabled"]=true 
+  },
+  ["workshop-666155465"]={
+    ["configuration_options"]={
+      ["food_estimation"]=-1,
+      ["food_order"]=0,
+      ["food_style"]=0,
+      ["lang"]="auto",
+      ["show_food_units"]=-1 
+    },
+    ["enabled"]=true 
+  } 
+}
