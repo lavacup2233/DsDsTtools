@@ -1,7 +1,4 @@
 #!/bin/bash
-#-------------------------------------------------------------------------------------------
-#欲醉无由 2016.11.12                                                                          
-#-------------------------------------------------------------------------------------------
 function SetWhite()
 {
 	echo "============================================"
@@ -18,9 +15,9 @@ function SetWhite()
 		if [[ ! `grep "$ID2" whitelist.txt` ]]
 		then 
 			echo "$ID2" >> whitelist.txt
-			echo "已为这个基佬预留一个位置"
+			echo "已为这个玩家预留一个位置"
 		else
-			echo "这个基佬已经有一个位置"
+			echo "这个玩家已经有一个位置"
 		fi
 	else
 		echo "该存档没有地上世界"
@@ -40,7 +37,7 @@ function SetWhite()
 			cd $HOME
 			echo "预留位置已开放"
 		else
-			echo "没有这个基佬的预留位置"
+			echo "没有这个玩家的预留位置"
 		fi
 	else
 		echo "该存档没有地上世界"
@@ -66,9 +63,9 @@ echo "============================================"
 		if [[ ! `grep "$ID2" blacklist.txt` ]]
 		then 
 			echo "$ID2" >> blacklist.txt
-			echo "SB已被关入地上小黑屋"
+			echo "玩家已被关入地上小黑屋"
 		else
-			echo "这个SB已经在小黑屋"
+			echo "这个玩家已经在小黑屋"
 		fi
 	else
 		echo "该存档没有地上世界"
@@ -80,9 +77,9 @@ echo "============================================"
 		if [[ ! `grep "$ID2" blacklist.txt` ]]
 		then 
 			echo "$ID2" >> blacklist.txt
-			echo "SB已被关入地下小黑屋"
+			echo "玩家已被关入地下小黑屋"
 		else
-			echo "这个SB已经在小黑屋"
+			echo "这个玩家已经在小黑屋"
 		fi
 	else
 		echo "该存档没有地下世界"
@@ -101,7 +98,7 @@ echo "============================================"
 			cd $HOME
 			echo "已放出地上小黑屋"
 		else
-			echo "这个基佬不在小黑屋"
+			echo "这个玩家不在小黑屋"
 		fi
 	else
 		echo "该存档没有地上世界"
@@ -116,7 +113,7 @@ echo "============================================"
 			cd $HOME
 			echo "已放出地下小黑屋"
 		else
-			echo "这个基佬不在小黑屋"
+			echo "这个玩家不在小黑屋"
 		fi
 	else
 		echo "该存档没有地下世界"
@@ -143,7 +140,7 @@ function SetAdmin()
 			echo "$ID2" >> adminlist.txt
 			echo "地上管理员已设置"
 		else
-			echo "这个基佬已经是管理员"
+			echo "这个玩家已经是管理员"
 		fi
 	else
 		echo "该存档没有地上世界"
@@ -157,7 +154,7 @@ function SetAdmin()
 			echo "$ID2" >> adminlist.txt
 			echo "地下管理员已设置"
 		else
-			echo "这个基佬已经是管理员"
+			echo "这个玩家已经是管理员"
 		fi
 	else
 		echo "该存档没有地下世界"
@@ -176,7 +173,7 @@ function SetAdmin()
 			cd $HOME
 			echo "地上管理员已移除"
 		else
-			echo "这个基佬不是管理员"
+			echo "这个玩家不是管理员"
 		fi
 	else
 		echo "该存档没有地上世界"
@@ -191,7 +188,7 @@ function SetAdmin()
 			cd $HOME
 			echo "地下管理员已移除"
 		else
-			echo "这个基佬不是管理员"
+			echo "这个玩家不是管理员"
 		fi
 	else
 		echo "该存档没有地下世界"
